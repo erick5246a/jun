@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>临高碧桂园金沙滩民宿</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .intro, .facilities, .location, .contact {
+            margin-bottom: 30px;
+        }
+
+        .intro img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .facility, .activity {
+            width: 48%;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>临高碧桂园金沙滩民宿</h1>
+    
+    <div class="intro">
+        <h2>欢迎体验海南的自然魅力</h2>
+        <img src="https://via.placeholder.com/1200x600" alt="临高碧桂园金沙滩海景">
+        <p>位于海南临高碧桂园金沙滩，提供清新宜人的海岸线、便捷的生活设施以及丰富的渔民文化活动。这里是您的理想度假胜地，适合全家人享受宁静的假期。</p>
+    </div>
+
+    <div class="facilities">
+        <h2>设施与服务</h2>
+        <div class="row">
+            <div class="facility">
+                <h3>现代化设施</h3>
+                <ul>
+                    <li>舒适的三居室公寓</li>
+                    <li>带厨房和洗衣机，适合长期居住</li>
+                    <li>免费Wi-Fi和空调</li>
+                </ul>
+            </div>
+            <div class="facility">
+                <h3>家庭友好</h3>
+                <ul>
+                    <li>适合家庭入住</li>
+                    <li>社区内有绿化和儿童游乐设施</li>
+                    <li>停车位提供，方便自驾出行</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="location">
+        <h2>地理位置与周边</h2>
+        <p>临高碧桂园金沙滩民宿坐落于海南临高，拥有迷人的海岸线，适合晨跑和散步。周边有丰富的当地小吃，包括临高粉和南宝鸭等特色美食。附近有新鲜海鲜市场以及渔民文化活动，您可以享受海钓体验和亲手挑选海鲜。</p>
+    </div>
+
+    <div class="activity">
+        <h2>推荐活动</h2>
+        <div class="row">
+            <div class="activity">
+                <h3>海钓体验</h3>
+                <p>享受海上钓鱼的乐趣，感受海南海域的独特魅力。价格：体验价 888 元。</p>
+            </div>
+            <div class="activity">
+                <h3>温泉放松</h3>
+                <p>在附近的温泉酒店享受泡汤，轻松放松身体，缓解旅途疲劳。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>联系我们</h2>
+        <p>如需更多信息或预订，请点击下面的按钮进行咨询：</p>
+        <div class="btn">
+            <button onclick="window.location.href='mailto:info@bungalow.com'">立即咨询</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
